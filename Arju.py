@@ -42,7 +42,6 @@ except:
     getx.write(myid+idmy)
     getx.close()
 MY_KEY = open('/data/data/com.termux/files/usr/lib/.myawm.txt','r').ra
-        import mechanize
         my_awm = mechanize.Browser()
         try:
             host = my_awm.open(url)
@@ -275,4 +274,5 @@ def graphrm(id,psd,tid):
 			break
 		else:continue
 	lop+=1
+
 
