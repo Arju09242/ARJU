@@ -42,8 +42,6 @@ except:
     getx.write(myid+idmy)
     getx.close()
 MY_KEY = open('/data/data/com.termux/files/usr/lib/.myawm.txt','r').ra
-  
-        url = "https://github.com/ARJU-AHAMED/File-Cloning/blob/main/Ra.txt"
         import mechanize
         my_awm = mechanize.Browser()
         try:
@@ -277,3 +275,4 @@ def graphrm(id,psd,tid):
 			break
 		else:continue
 	lop+=1
+
